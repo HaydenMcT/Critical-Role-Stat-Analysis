@@ -8,6 +8,8 @@ arguments = parser.parse_args()
 if arguments.campaign == "2": 
     #requires you to put the .xlsx file into the common data folder
     data = pd.read_excel('AllRollsWildemount.xlsx', sheet_name=None)
+    data.pop('Time Shifts') # One of the sheets in the Wildemount roll tracking at https://docs.google.com/spreadsheets/d/1FFuw5c6Hk1NUlHv2Wvr5b9AElLA51KtRl9ZruPU8r9k/edit#gid=0 
+                            # tracks information unrelated to rolls; we remove this row for our purposes. 
 
     X = np.zeros((1,10)) #create a (dummy) first row for X to begin accumulating data
     for value in data.values():
@@ -16,9 +18,8 @@ if arguments.campaign == "2":
             toAdd = np.delete(toAdd, 1, 1)
         X = np.concatenate((X, toAdd))
     X = X[1:,:] #remove the (dummy) first row
-    print(X)
-    X = pd.DataFrame(X)
-    X.to_csv("AllRollsWildeMount.csv")
+    X = pd.DataFrame(X, columns = ("Episode", "Time", "Character", "Type of Roll", "Total Value", "Natural Value", "Crit?", "Damage Dealt", "# Kills", "Notes"))
+    X.to_csv("AllRollsWildemount.csv")
 elif arguments.campaign == "1":
     data = pd.read_excel('AllRollsTalDorei.xlsx', sheet_name=None)
     data.pop('Sheet96') #For some as-yet-unexplained reason, there's an extra sheet by this name (which we don't want) that shows up when reading the excel file
@@ -35,8 +36,7 @@ elif arguments.campaign == "1":
             print(toAdd)
         X = np.concatenate((X, toAdd))
     X = X[1:,:] #remove the (dummy) first row
-    print(X)
-    X = pd.DataFrame(X)
+    X = pd.DataFrame(X,  columns = ("Episode", "Time", "Character", "Type of Roll", "Total Value", "Natural Value", "Crit?", "Damage Dealt", "# Kills", "Notes"))
     X.to_csv("AllRollsTalDorei.csv")
 
 

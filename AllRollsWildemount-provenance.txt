@@ -1,0 +1,3 @@
+The AllRollsWildemount.xlsx sheet is downloaded from https://docs.google.com/spreadsheets/d/1FFuw5c6Hk1NUlHv2Wvr5b9AElLA51KtRl9ZruPU8r9k/edit#gid=0
+It is renamed to "AllRollsWildemount.xlsx", then placed, unmodified, into this folder. 
+The latest version of the sheet was downloaded at ~3:30pm PST on July 20, 2020
