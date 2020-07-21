@@ -1233,7 +1233,7 @@
 1231,9165,C2E079,2:20:49,Jester,Perception,19,14,,,,,,,
 1232,9166,C2E079,2:21:49,Jester,Perception,Nat1,1,,,,,,,
 1233,9171,C2E079,2:26:24,Jester,Acrobatics,14,Unknown,,,,with Guidance,"[6,9]",,
-1234,9180,C2E079,2:28:42,Jester,Stealth,35,21,,,,with PWaT,,,
+1234,9180,C2E079,2:28:42,Jester,Stealth,35,19,,,,with PWaT,,,"I made a manual correction here (the previous editor had input 21 for the natural roll, missing that Jester uses guidance here).  The original editor must have missed that (guidance and PWaT are both concentration spells, so this isn't something that would normally happen, and Laura doesn't explicitly state that she's using it, but she says ""guide me"" and rolls a d4). She rolled a large enough d20 that I could see the roll from a screenshot at 2:28:13, and from the position of the numbers facing the camera (17 and 7) the roll must have been a 19"
 1235,9201,C2E079,3:12:43,Jester,Initiative,19,15,,,,,,,
 1236,9208,C2E079,3:29:30,Jester,Survival Check,25,20,,,,,,,
 1237,9220,C2E079,3:41:27,Jester,Stealth Check,24,Unknown,,,,with Guidance,"[16,19]",,
