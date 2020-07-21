@@ -1537,5 +1537,5 @@
 1535,11245,C2E101,3:12:08,Jester,Persuasion,15,10,,,,,,,
 1536,11251,C2E101,3:14:17,Jester,Dexterity Save,15,11,,,,,,,
 1537,11255,C2E100,3:16:37,Jester,Strength,15,12,,,,,,,
-1538,11258,C2E101,3:17:25,Jester,Strength,Unknown,Unknown,,,,,,,
+1538,11258,C2E101,3:17:25,Jester,Strength,Unknown,Unknown,,,,,"[2,11]","Jester says ""worse than the last one"", but does not claim nat 1",
 1539,11259,C2E101,3:18:29,Jester,Healing,8,,,Caduceus heals 8,,,,,
