@@ -1,6 +1,6 @@
 ,Index of Roll in AllRollsWildemount.csv,Episode,Time,Character,Type of Roll,Total Value,Natural Value,Crit?,Damage Dealt,# Kills,Notes,Manual Dice Range,Notes on Manual Corrections
 0,1,C2E001,0:39:22,Jester,Perception,22,19,,,,,,
-1,10,C2E001,1:06:57,Jester,Perception,Unknown,Unknown,,,,,,
+1,10,C2E001,1:06:57,Jester,Perception,Unknown,Unknown,,,,,"[1,16]",Fails to beat a 20
 2,11,C2E001,1:07:34,Jester,Sleight of Hand,13,8,,,,,,
 3,16,C2E001,1:08:52,Jester,Other,5,,,,,Crick Queen's Call,,
 4,17,C2E001,1:08:52,Jester,Other,5,,,,,Crick Queen's Call,,
@@ -114,7 +114,7 @@
 112,664,C2E006,3:43:52,Jester,Healing,Unknown,Unknown,,,,"Cure Wounds, Fjord heals unknown points",,
 113,669,C2E007,0:18:41,Jester,Initiative,16,13,,,,,,
 114,708,C2E007,1:11:53,Jester,Stealth,13,5,,,,,,
-115,720,C2E007,1:27:07,Jester,Perception,13,,,,,,,
+115,720,C2E007,1:27:07,Jester,Perception,15,12,,,,,,Original data entry was 13 (but that's Mollymauk's roll). Jester rolled a 15.
 116,722,C2E007,1:27:48,Jester,Stealth,13,11,,,,,,
 117,730,C2E007,1:39:35,Jester,Initiative,13,10,,,,,,
 118,749,C2E007,1:59:52,Jester,Damage,9,6,,6 Necrotic to Gnoll 1,,Toll the Dead,,
@@ -162,7 +162,7 @@
 160,979,C2E010,1:26:29,Jester,Healing,8,,,,,Yasha heals 8 points,,
 161,986,C2E010,1:22:12,Jester,Stealth,8,5,,,,,,
 162,990,C2E010,1:23:27,Jester,Perception,15,12,,,,,,
-163,998,C2E010,1:40:30,Jester,Attack,Unknown,Unknown,,,,Handaxe,,
+163,998,C2E010,1:40:30,Jester,Attack,Unknown,Unknown,,,,Handaxe,,"Laura is sure the attack hits without reporting the exact number, so the roll is high, but we don't know much more than that"
 164,999,C2E010,1:40:38,Jester,Damage,7,,,7 to Web,,,,
 165,1004,C2E010,2:09:22,Jester,Initiative,22,19,,,,,,
 166,1019,C2E010,2:25:20,Jester,Damage,2,,,2 Radiant to Spider,,,,

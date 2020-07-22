@@ -26,7 +26,7 @@ def isD20Roll(rollType):
         return False
     if rollType == 'damage': #damage rolls are never done with d20's
         return False
-    if rollType == 'hit points': #Jester rolls a d8 when deciding how many hit points to gain
+    if rollType == 'hit points' or rollType == 'hit dice': #Jester rolls a d8 when deciding how many hit points to gain/recover when leveling up or using hit dice
         return False
     if rollType == 'other': # the "other" category often refers to non d20 rolls 
                             # (because most d20 rolls correspond to easily classifiable types of rolls: 
@@ -156,3 +156,5 @@ for i, roll in enumerate(d20_rolls): #each row of the dataset represents informa
 
 print(roll_tally)
 print(np.sum(roll_tally))
+
+#TODO: "Run Chi Sq goodness of fit test against a discrete uniform distribution"
