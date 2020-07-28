@@ -154,7 +154,19 @@ for i, roll in enumerate(d20_rolls): #each row of the dataset represents informa
                 #if the notes don't mention advantage and the natural roll is missing, we may have to disregard the results or fill them in manually
                 print("Missing data: " + str(roll))
 
-print(roll_tally)
-print(np.sum(roll_tally))
+#print(roll_tally)
+#print(np.sum(roll_tally))
 
-#TODO: "Run Chi Sq goodness of fit test against a discrete uniform distribution"
+#simple hypothesis test:
+#sample_mean = (roll_tally @ np.arange(1, 21)).sum()/np.sum(roll_tally)
+#test_stat = (sample_mean-10.5)/np.sqrt((33.5/np.sum(roll_tally)))
+#print(test_stat)
+#result: fail to reject at alpha = .95
+
+#chisq goodness of fit test (last test on exactly this data, or we'll have to start really thinking about a way to correct for multiple tests)
+print("Running Chi Sq goodness of fit test against a discrete uniform distribution")
+test_stat = 0
+expected = np.sum(roll_tally)/20 #Under a discrete uniform distribution, we expect each number on the d20 to be rolled 1 in 20 times
+for count in roll_tally:
+    test_stat += (count - expected)**2/expected
+print("test statistic is: " + str(test_stat) + " - we reject H0 iff test_stat > 30.14")
