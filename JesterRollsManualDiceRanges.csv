@@ -497,8 +497,8 @@
 495,3987,C2E034,4:01:17,Jester,Damage,12,,,12 Force to G2,1,G2 dies,,
 496,4006,C2E035,0:39:45,Jester,Disguise Kit,20,12,,,,dex+prof,,
 497,4010,C2E035,0:55:22,Jester,Damage,11,,,11 radiant to Fjord's Specter,,,,
-498,4012,C2E035,0:58:12,Jester,Forgery Kit,Unknown,Unknown,,,,Disregarded due to advantage,,
-499,4013,C2E035,0:58:12,Jester,Forgery Kit,22,14,,,,"dex+prof, fragment of possibility used",,"The fragment of possibility allows you to see a roll before deciding whether or not to use it - that means this roll might be particularly bad and not just uniformly [1,16]"
+498,4012,C2E035,0:58:12,Jester,Forgery Kit,Unknown,Unknown,,,,Disregarded due to advantage,,"The fragment of possibility allows you to see a roll before deciding whether or not to use it - that means this roll might be particularly bad and not just uniformly [1,15]"
+499,4013,C2E035,0:58:12,Jester,Forgery Kit,22,15,,,,"dex+prof, fragment of possibility used",,"fixed an error - Jester's prof+ dex is +7, so the roll should be a natural 15 and not a natural 14"
 500,4016,C2E035,1:05:36,Jester,Perception,Nat20,20,,,,,,
 501,4025,C2E035,1:33:37,Jester,Perception,14,10,,,,,,
 502,4027,C2E035,1:37:15,Jester,Performance,7,6,,,,,,
@@ -729,7 +729,7 @@
 727,5722,C2E048,0:20:29,Jester,History,11,10,,,,,,
 728,5723,C2E048,0:41:57,Jester,Perception,10,6,,,,,,
 729,5727,C2E048,1:35:37,Jester,Persuasion,21,17,,,,,,
-730,5731,C2E048,2:42:08,Jester,Forgery Kit,Unknown,Unknown,,,,Disregarded due to fragment of possibility,,"The fragment of possibility allows you to see a roll before deciding whether or not to use it - that means this roll might be particularly bad and not just uniformly [1,16]"
+730,5731,C2E048,2:42:08,Jester,Forgery Kit,Unknown,Unknown,,,,Disregarded due to fragment of possibility,,"The fragment of possibility allows you to see a roll before deciding whether or not to use it - that means this roll might be particularly bad and not just uniformly [1,higher roll]"
 731,5732,C2E048,2:42:08,Jester,Forgery Kit,23,16,,,,With fragment of possibility (dex+prof),,
 732,5733,C2E048,2:43:09,Jester,Deception,9,5,,,,,,
 733,5734,C2E048,2:44:46,Jester,Animal Handling,12,8,,,,,,
